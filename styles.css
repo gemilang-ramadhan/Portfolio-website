@@ -1,0 +1,153 @@
+p{
+    font-family: 'Yeon Sung';
+    color:black;
+    font-size: 1.2rem;
+}
+
+#title {
+    background-color: #EAFDFC;
+    border-radius: 30px;
+    padding-top: 10%;
+}
+
+.nav-link, .navbar-brand{
+    font-family: 'Yeon Sung', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+
+.my_nav{
+    background-color: #91D8E4;
+    border-radius: 30px;
+    margin: 1% 10%;
+    padding: 5px 5%;
+   opacity: 90%;
+}
+
+/* font */
+.main-name, h1.bio, h3.intro-skills-title-1, h3.intro-skills-title-2, h1.projects-title, p.footer{
+    font-family: 'Gloria Hallelujah';
+    color:#66BFBF;
+    text-align: center;
+}
+
+.main-name{
+    padding-top: 8%;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.upper{
+    position: relative;
+    margin: auto;
+}
+
+.mountain{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    width: 60%;
+}
+
+/* about-page */
+
+#about{
+    margin : 0px 20%;
+
+}
+
+.intro-title{
+    background-color: #EAFDFC;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto auto 5%;
+}
+
+
+.intro-bio{
+    text-align: justify;
+}
+
+.bio{
+    margin-top: 20%;
+}
+.intro-skills{
+    padding-bottom: 3%;
+}
+
+.icon{
+    padding: 20px 20px 25px 0px;
+
+}
+
+.icon-2{
+    padding-left: 20px;
+}
+.intro-skills-title-1{
+    text-align: left !important;
+}
+
+.intro-skills-title-2{
+    text-align: right !important;
+}
+
+/* projects */
+
+#projects{
+    margin: 5% 10% 5%;
+}
+
+.projects-title{
+    margin: 10% auto 7%;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+.carousel-indicators{
+    opacity: 50%;
+}
+
+.on-projects, .github{
+    margin: 5% auto 1%;
+    text-align: center !important;
+}
+
+button.btn-info{
+    opacity: 70%;
+}
+
+/* footer */
+#contact{
+    padding: 1.5% 0 0.5%;
+    background-color: #EAFDFC;
+    text-align: center;
+}
+
+i.fa-square-instagram, i.fa-square-github{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 950px){
+    .main-name{
+        padding-top: 20%;
+        font-size: 2.5rem;
+    }
+    .mountain{
+        padding-top: 20%;
+        width: 100%;
+    }
+}
