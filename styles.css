@@ -21,6 +21,10 @@ p{
     font-size: 2rem;
 }
 
+.navbar-brand:hover, .nav-link:hover{
+    color: #0081C9;
+}
+
 .nav-item{
     padding-left: 20px;
 }
@@ -35,7 +39,13 @@ p{
 }
 
 /* font */
-.main-name, h1.bio, h3.intro-skills-title-1, h3.intro-skills-title-2, h1.projects-title, p.footer{
+.main-name,
+ h1.bio,
+ h3.intro-skills-title-1,
+  h3.intro-skills-title-2,
+   h1.projects-title,
+    p.footer,
+    a.contact-a{
     font-family: 'Gloria Hallelujah';
     color:#66BFBF;
     text-align: center;
@@ -129,15 +139,34 @@ button.btn-info{
     opacity: 70%;
 }
 
-/* footer */
+/* contact */
 #contact{
+    margin: 5% 20% 5%;
+}
+.on-contact{
+    padding-top: 2%;
+    padding-bottom: 5px;
+}
+
+a.contact-a{
+    font-size: 1.3rem;
+}
+
+a.contact-a:hover{
+    color:#91D8E4;
+}
+
+
+/* footer */
+#foot{
     padding: 1.5% 0 0.5%;
     background-color: #EAFDFC;
     text-align: center;
 }
 
-i.fa-square-instagram, i.fa-square-github{
-    padding-left: 10px;
+i.fa-instagram, i.fa-github, i.fa-linkedin{
+    padding-top: 20px;
+    padding-left: 60px;
     padding-right: 10px;
 }
 
