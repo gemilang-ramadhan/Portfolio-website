@@ -171,12 +171,18 @@ i.fa-instagram, i.fa-github, i.fa-linkedin{
 }
 
 @media screen and (max-width: 950px){
+    #title{
+        width: 100%;
+        padding-bottom: 25%;
+    }
     .main-name{
         padding-top: 20%;
         font-size: 2.5rem;
     }
+    
     .mountain{
         padding-top: 20%;
         width: 100%;
+
     }
 }
