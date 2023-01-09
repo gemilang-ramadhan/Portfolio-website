@@ -35,7 +35,7 @@ p{
     border-radius: 30px;
     margin: 1% 10%;
     padding: 5px 5%;
-   opacity: 90%;
+    opacity: 90%;
 }
 
 /* font */
@@ -170,22 +170,24 @@ i.fa-instagram, i.fa-github, i.fa-linkedin{
     padding-right: 10px;
 }
 
-@media screen and (max-width: 1080px){
-    #title{
+@media screen and (max-width: 768px){
+    #title, #about, #projects, #contact{
         width: 100%;
-        padding-bottom: 25%;
+        margin: 0 auto 0;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    #title{
+        padding-bottom: 60%;
     }
     .main-name{
-        padding-top: 20%;
+        padding-top: 50%;
         font-size: 2.5rem;
     }
     
     .mountain{
-        padding-top: 20%;
-        width: 100%;
-    }
-
-    #about, #projects, #contact{
+        padding-top: 50%;
         width: 100%;
     }
 
