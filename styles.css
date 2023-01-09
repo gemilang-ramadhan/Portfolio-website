@@ -170,7 +170,7 @@ i.fa-instagram, i.fa-github, i.fa-linkedin{
     padding-right: 10px;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1080px){
     #title{
         width: 100%;
         padding-bottom: 25%;
@@ -183,6 +183,14 @@ i.fa-instagram, i.fa-github, i.fa-linkedin{
     .mountain{
         padding-top: 20%;
         width: 100%;
-
     }
+
+    #about, #projects, #contact{
+        width: 100%;
+    }
+
+    .intro-title, .intro-skills-title-1,.intro-skills-title-2{
+        width: 100%;
+    }
+    
 }
